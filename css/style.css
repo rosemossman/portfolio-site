@@ -1,0 +1,82 @@
+/*
+Colors used:
+Primary Color (Black): #181919;
+Secondary Color (Grey): #4B4D4F
+Accent (blue): #0021C0
+Accent (lime): #E0FF56;
+*/
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: #4B4D4F;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+h2 {
+  font-style: bold;
+  font-size: 1.25em;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  color: #4B4D4F;
+  font-size: 1em;
+}
+
+.intro {
+  font-style: italic;
+  font-size: 2.25em;
+}
+
+nav {
+  text-transform: uppercase;
+  font-style: bold;
+  list-style: none;
+}
+
+img {
+  width: 100%
+}
+
+a {
+  color: #0021C0;
+  text-decoration: none;
+}
+
+a:hover a:focus {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #181919;
+}
+
+.button {
+  display: inline-block;
+  background-color: #E0FF56;
+  color: #181919;
+  padding: 10px;
+  font-style: bold;
+  font-weight: 400;
+  border-radius: 5px;
+  border-bottom: 2px solid lightgrey;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  background-color: #0021C0;
+  color: #ffff;
+}
+
+.button:active {
+  background-color: #0021C0;
+  color: #ffff;
+}

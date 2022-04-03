@@ -4,6 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>Rose Mossman Design Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Fraunces:ital,wght@0,500;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -25,77 +32,73 @@
 
   <main>
 
-    <!-- Hero Section -->
-    <div>
-      <div>
+    <section id="hero">
+      <div class="container">
         <h1>
-          <span>Hi, I'm Rose.</span>
+          <span class="intro">Hi, I'm Rose.</span>
           <br> I am a Graphic Designer turned UX/UI Designer with a passion for human-centered design—no matter
           which final form it may take.
         </h1>
       </div>
-    </div>
+    </section>
 
     <!-- Work Section -->
-    <div>
+    <section id="work">
       <div>
-        <h2>My Work</h2>
+        <h2>Projects</h2>
 
-        <div>
-          <!-- Project 1 Section -->
+        <!-- Project 1 Section -->
+        <div class="container">
 
-          <div>
-            <!-- left column with image -->
+          <div class="left-column">
             <picture>
               <source srcset="img/homegrown/homegrown_intro@1x.png" media="(max-width:767px)">
               <img src="img/homegrown/homegrown_intro@2x.png" alt="image">
             </picture>
           </div>
 
-          <div>
-            <!-- right column with text -->
-            <h3>Homegrown</h3>
+          <div class="right-column">
+            <h2>Homegrown</h2>
             <p>Homegrown is a location-based web app that bridges the gap between people and their food
               source. This is possible through rebuilding the connections that have been lost in our
               neighbourhoods, and fostering communities where neighbours can share knowledge, gardening
               space, and even food. </p>
-            <a href="homegrown.html">button</a>
+            <a href="homegrown.html" class="button">See More</a>
           </div>
         </div>
 
-        <div>
-          <!-- Project 2 Section -->
 
-          <div>
-            <!-- left column with image -->
+        <!-- Project 2 Section -->
+        <div class="container">
+
+          <div class="left-column">
             <picture>
               <source srcset="img/fooddetective/fooddetective_mockup@1x.jpg" media="(max-width:767px)">
               <img src="img/fooddetective/fooddetective_mockup@2x.jpg" alt="image">
             </picture>
           </div>
 
-          <div>
-            <!-- right column with text -->
-            <h3>Project 2</h3>
+          <div class="right-column">
+            <h2>Food Detective</h2>
             <p>Food Detective is a native mobile app for both iOS and android that tracks correlations between your diet
               and uncomfortable symptoms related to your overall health.</p>
-            <a href="fooddetective.html">button</a>
+            <a href="fooddetective.html" class="button">See More</a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
 
   </main>
 
   <!-- Footer -->
   <footer id="contact">
-    <div>
+    <section>
       <h2>Get in Touch</h2>
       <p>If you would like to get in touch with me about a design opportunity,
         please call me at <a href="tel:5142488023">514-248-8023</a> or reach out via email!</p>
       <div>
-        <a href="mailto:&#114;&#111;&#115;&#101;&#109;&#111;&#115;&#115;&#109;&#097;&#110;&#049;&#049;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Send Me an Email!</a>
+        <a href="mailto:&#114;&#111;&#115;&#101;&#109;&#111;&#115;&#115;&#109;&#097;&#110;&#049;&#049;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" class="button contact">Send Me an Email!</a>
       </div>
       <div>
         <!-- Social Media -->
@@ -117,10 +120,8 @@
             <g />
           </svg></a>
       </div>
-      <div>
-        <p>Copyright Rose Mossman 2022</p>
-      </div>
-    </div>
+      <p>Copyright Rose Mossman 2022</p>
+    </section>
   </footer>
 
 </body>
