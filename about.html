@@ -16,33 +16,31 @@
 
 <body>
 
-  <!-- Header Section -->
-  <header>
-    <div>
-      <a href="index.html">
-        <img src="img/rosemossman.svg" alt="logo"> </a>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Projects</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <!-- Header Section -->
+    <header>
+      <div class="container"> <a href="index.html">
+          <img src="img/rosemossman.svg" alt="logo" class="logo"> </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main>
+  <main id="main">
 
     <!-- Title -->
-    <div>
+    <div class="container">
       <div>
         <h1>About</h1>
       </div>
     </div>
 
     <!-- Everything else -->
-    <section class="me">
+    <section class="container">
       <div>
         <picture>
           <source srcset="img/me@1x.jpg" media="(max-width:757px)">
@@ -58,7 +56,7 @@
               process in 2D, 3D and time-based formats. My work experience as a Graphic Designer has refined my
               skills with layout, typography, and the creation and preparation of digital assets. It has also taught me
               how to work creatively on a team, and apply constructive feedback to develop the most effective design
-              solutions.
+              solutions. <br>
               While I love creating visually aesthetic designs, I am equally interested in looking at the bigger picture of
               a project and digging deep to understand the root problems. This analytic side to my personality is what
               attracts me to the UX side of the design process. I intend to bring these qualities, paired with my graphic
@@ -105,7 +103,7 @@
 
   <!-- Footer -->
   <footer id="contact">
-    <div>
+    <section class="container">
       <h2>Get in Touch</h2>
       <p>If you would like to get in touch with me about a design opportunity,
         please call me at <a href="tel:5142488023">514-248-8023</a> or reach out via email!</p>
@@ -114,8 +112,8 @@
       </div>
       <div>
         <!-- Social Media -->
-        <a href="https://www.linkedin.com/in/rose-mossman" target="_blank">
-          <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <a href="https://www.linkedin.com/in/rose-mossman"  target="_blank">
+          <svg class="icon" enable-background="new 0 0 32 32" height="32px" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g>
               <path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5" />
               <g>
@@ -135,7 +133,7 @@
       <div>
         <p>Copyright Rose Mossman 2022</p>
       </div>
-    </div>
+    </section>
   </footer>
 
 </body>

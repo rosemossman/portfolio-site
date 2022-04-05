@@ -4,20 +4,20 @@
 <head>
   <meta charset="utf-8">
   <title>Homegrown</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <header id="header">
-    <div>
-      <a href="index.html">
-        <img src="img/rosemossman.svg" alt="logo"> </a>
-
+  <!-- Header Section -->
+  <header>
+    <div class="container"> <a href="index.html">
+        <img src="img/rosemossman.svg" alt="logo" class="logo"> </a>
       <nav>
         <ul>
           <li><a href="index.html">Projects</a></li>
@@ -27,166 +27,171 @@
       </nav>
     </div>
   </header>
-  <main>
 
-    <div>
+
+  <main id="main">
+    <section class="container">
+      <div>
+        <picture>
+          <source srcset="img/homegrown/homegrown_intro@1x.png" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_intro@2x.png" alt="homegrown">
+        </picture>
+
+        <p>Homegrown is a location-based web app that bridges the gap between people and their food source. This is possible through rebuilding the connections that have been lost in our neighbourhoods, and fostering communities where neighbours can
+          share knowledge, gardening space, and even food.</p>
+        <ul>
+          <li>Timeline: 6 week project</li>
+          <li> Role: UX, UI Designer</li>
+          <li>Tools: Sketch, Invision, Miro, Photoshop</li>
+        </ul>
+      </div>
+
+      <div>
+        <picture>
+          <source srcset="img/homegrown/homegrown_questions1@1x.jpg" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_questions1@2x.jpg" alt="homegrown">
+        </picture>
+        <picture>
+          <source srcset="img/homegrown/homegrown_questions2@1x.jpg" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_questions2@2x.jpg" alt="homegrown">
+        </picture>
+        <h1>Discovery</h1>
+      </div>
+      <h2>Mapping the Problem</h2>
+      <p>Before diving straight into my user research, I mapped out the most important questions to consider while gathering insight through the competitor analysis and interviews.</p>
+      <h2>Competitor Analysis</h2>
+      <p>I wasn’t able to find any current apps that match my concept, however I conducted an analysis of food-related location apps like Yelp and Happy Cow. I studied their marketing strategies and User Interface with a focus on the methods they use
+        to attract users and encourage them to generate thoughtful content about local businesses. I also considered areas for improvement, such as finding better ways of building trust with users.</p>
+
+      <h2>Interviews</h2>
+      <p>A series of interviews were conducted with people interested in increasing the amount of locally grown foods they buy and consume. Here are some of the most common findings:</p>
+      <ol>
+        <li>Geographic access is an even bigger barrier than budget. Many people live in food deserts and don’t even know where to look.</li>
+        <li>There are almost no online tools focused on improving access to locally grown food. Most users search for markets and local farms through Google search or Facebook/Instagram.</li>
+        <li>People feel disconnected from their neighbours and community as a whole. The pandemic has affected this isolation even further.</li>
+      </ol>
+
+      <h2>User Personas</h2>
       <picture>
-        <source srcset="img/homegrown/homegrown_intro@1x.png" media="(max-width:767px)">
-        <img src="img/homegrown/homegrown_intro@2x.png" alt="homegrown">
+        <source srcset="img/homegrown/homegrown_personas@1x.png" media="(max-width:767px)">
+        <img src="img/homegrown/homegrown_personas@2x.png" alt="user personas">
       </picture>
 
-      <p>Homegrown is a location-based web app that bridges the gap between people and their food source. This is possible through rebuilding the connections that have been lost in our neighbourhoods, and fostering communities where neighbours can
-        share knowledge, gardening space, and even food.</p>
-      <ul>
-        <li>Timeline: 6 week project</li>
-        <li> Role: UX, UI Designer</li>
-        <li>Tools: Sketch, Invision, Miro, Photoshop</li>
-      </ul>
-    </div>
+      <section>
 
-    <div>
-      <picture>
-        <source srcset="img/homegrown/homegrown_questions1@1x.jpg" media="(max-width:767px)">
-        <img src="img/homegrown/homegrown_questions1@2x.jpg" alt="homegrown">
-      </picture>
-      <picture>
-        <source srcset="img/homegrown/homegrown_questions2@1x.jpg" media="(max-width:767px)">
-        <img src="img/homegrown/homegrown_questions2@2x.jpg" alt="homegrown">
-      </picture>
-    <h1>Discovery</h1>
-    </div>
-    <h2>Mapping the Problem</h2>
-    <p>Before diving straight into my user research, I mapped out the most important questions to consider while gathering insight through the competitor analysis and interviews.</p>
-    <h2>Competitor Analysis</h2>
-    <p>I wasn’t able to find any current apps that match my concept, however I conducted an analysis of food-related location apps like Yelp and Happy Cow. I studied their marketing strategies and User Interface with a focus on the methods they use
-      to attract users and encourage them to generate thoughtful content about local businesses. I also considered areas for improvement, such as finding better ways of building trust with users.</p>
+        <h1>Exploration</h1>
+        <h2>User Flow</h2>
+        <ol>
+          <li>Logging in or creating an account</li>
+          <li>Using the location-based search function to find nearby suggestions</li>
+          <li>Searching for a specific result by name, to find more information</li>
+          <li>Submitting a listing as either business owner or patron</li>
+        </ol>
+        <picture>
+          <source srcset="img/homegrown/homegrown_userflow@1x.png" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_userflow@2x.png" alt="user flow">
+        </picture>
+      </section>
 
-    <h2>Interviews</h2>
-    <p>A series of interviews were conducted with people interested in increasing the amount of locally grown foods they buy and consume. Here are some of the most common findings:</p>
-    <ol>
-      <li>Geographic access is an even bigger barrier than budget. Many people live in food deserts and don’t even know where to look.</li>
-      <li>There are almost no online tools focused on improving access to locally grown food. Most users search for markets and local farms through Google search or Facebook/Instagram.</li>
-      <li>People feel disconnected from their neighbours and community as a whole. The pandemic has affected this isolation even further.</li>
-    </ol>
+      <section>
+        <h2>Most Viable Product</h2>
+        <picture>
+          <source srcset="img/homegrown/homegrown_mvp@1x.png" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_mvp@2x.png" alt="user flow">
+        </picture>
 
-    <h2>User Personas</h2>
-    <picture>
-      <source srcset="img/homegrown/homegrown_personas@1x.png" media="(max-width:767px)">
-      <img src="img/homegrown/homegrown_personas@2x.png" alt="user personas">
-    </picture>
-   
-    <section>
+        <p>The heart of Homegrown is the search function that generates map-based results of nearby farms, markets, restaurants etc. where users can find locally grown foods.
+          <br>For users that lack nearby purchasing options, Homegrown will also provide alternative options like Community Gardens and Garden Swap. The Garden Swap option is an exciting tool that connects neighbours so they can share tips about
+          gardening, and swap tools, seeds and extra produce.
+          <br>The Food Donation category encourages listings from anyone that has extra produce from their gardens or fruit trees that may otherwise go to waste. Users in need can browse this option to see if anyone in their neighbourhood is offering
+          food on the app.
+          <br>It was crucial to prioritize the needs of lower-income users when designing the MVP, in order to solve hurdles that would ultimately create a more effective tool for everyone.
+        </p>
+      </section>
 
-      <h1>Exploration</h1>
-    <h2>User Flow</h2>
-    <ol>
-      <li>Logging in or creating an account</li>
-      <li>Using the location-based search function to find nearby suggestions</li>
-      <li>Searching for a specific result by name, to find more information</li>
-      <li>Submitting a listing as either business owner or patron</li>
-    </ol>
-      <picture>
-        <source srcset="img/homegrown/homegrown_userflow@1x.png" media="(max-width:767px)">
-        <img src="img/homegrown/homegrown_userflow@2x.png" alt="user flow">
-      </picture>
+      <h1>Prototype</h1>
+      <section>
+        <!-- Wireframes -->
+        <h2>Low Fidelity Wireframes</h2>
+        <picture>
+          <source srcset="img/homegrown/homegrown_lofi@1x.png" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_lofi@2x.png" alt="wireframes">
+        </picture>
+        </div>
+        <div>
+          <h2>High Fidelity Wireframes</h2>
+          <picture>
+            <source srcset="img/homegrown/homegrown_midfi@1x.png" media="(max-width:767px)">
+            <img src="img/homegrown/homegrown_midfi@2x.png" alt="wireframes">
+          </picture>
+      </section>
+
+      <!-- Testing -->
+      <section>
+        <h2>User Testing</h2>
+        <picture>
+          <source srcset="img/homegrown/homegrown_testing1@1x.png" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_testing1@2x.png" alt="testing1">
+        </picture>
+        <h3>Common Pain Point #1</h3>
+        <p>Participants didn’t know what to type into search bar</p>
+        <h3>Solution</h3>
+        <ul>
+          <li>Include a drop down menu for location (Mobile).</li>
+          <li>Larger devices can also have more instruction.</li>
+          <li>Include function to search business name in search bar.</li>
+        </ul>
+      </section>
+
+      <div>
+        <picture>
+          <source srcset="img/homegrown/homegrown_testing2@1x.png" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_testing2@2x.png" alt="testing2">
+        </picture>
+        <h3>Common Pain Point #2</h3>
+        <p>Confusion about microcopy: “Gardeners”, “Vendors”, etc</p>
+        <h3>Solution</h3>
+        <ul>
+          <li>Discussed different words with participants to determine the clearest terminology</li>
+        </ul>
+      </div>
+
+      <h2>Mobile Screens</h2>
+      <div>
+        <picture>
+          <source srcset="img/homegrown/homegrown_prototype@1x.png" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_prototype@2x.png" alt="mobile prototype">
+        </picture>
+      </div>
+      <h2>Responsive Designs</h2>
+      <div>
+        <picture>
+          <source srcset="img/homegrown/homegrown_responsive@1x.png" media="(max-width:767px)">
+          <img src="img/homegrown/homegrown_responsive@2x.png" alt="responsive">
+        </picture>
+      </div>
+
+      <div>
+        <h2>Reflection</h2>
+        <p>The brief was to develop a location-based web app. I chose to tackle the problem of disconnect between consumer and their food source. Focusing on locally-grown food was an appropriate take on the location-based aspect of the brief.</p>
+        <h3>What I learned</h3>
+        <p>User research, and in particular, user interviews were the most important factors in determining the features of the MVP. I used the findings of this research to develop User Personas that I could always refer back to in order to empathize
+          with the user when making design decisions.</p>
+        <h3>Biggest Challenge</h3>
+        <p>Condensing all my ideas into a simplified MVP was challenging. I considered my research and followed the principles of Lean UX to determine which features were absolutely necessary.
+          I had to reconsider the User Flow when developing the MVP. I was working with a complex problem that needed solving and had many different ideas that needed to be refined. </p>
+        <h3>Insights I gained</h3>
+        <p>The learnings from my User Interviews had the biggest impact on the User Experience. Usability Testing also revealed some significant blindspots in the early stages of wire-framing.</p>
+        <h3>Going Forward</h3>
+        <p>The research was so useful that I would like to have done even more. If time were not as much of a constraint, I would do more rounds of usability testing.</p>
+      </div>
+      <a href="#header">Back to Top</a>
     </section>
-
-    <section>
-    <h2>Most Viable Product</h2>
-      <picture>
-        <source srcset="img/homegrown/homegrown_mvp@1x.png" media="(max-width:767px)">
-        <img src="img/homegrown/homegrown_mvp@2x.png" alt="user flow">
-      </picture>
-    
-    <p>The heart of Homegrown is the search function that generates map-based results of nearby farms, markets, restaurants etc. where users can find locally grown foods.
-      <br>For users that lack nearby purchasing options, Homegrown will also provide alternative options like Community Gardens and Garden Swap. The Garden Swap option is an exciting tool that connects neighbours so they can share tips about
-      gardening, and swap tools, seeds and extra produce.
-      <br>The Food Donation category encourages listings from anyone that has extra produce from their gardens or fruit trees that may otherwise go to waste. Users in need can browse this option to see if anyone in their neighbourhood is offering
-      food on the app.
-      <br>It was crucial to prioritize the needs of lower-income users when designing the MVP, in order to solve hurdles that would ultimately create a more effective tool for everyone.
-    </p>
-  </section>
-
-  <h1>Prototype</h1>
-   <section> <!-- Wireframes -->
-      <h2>Low Fidelity Wireframes</h2>
-      <picture>
-        <source srcset="img/homegrown/homegrown_lofi@1x.png" media="(max-width:767px)">
-        <img src="img/homegrown/homegrown_lofi@2x.png" alt="wireframes">
-      </picture>
-    </div>
-    <div>
-      <h2>High Fidelity Wireframes</h2>
-      <picture>
-        <source srcset="img/homegrown/homegrown_midfi@1x.png" media="(max-width:767px)">
-        <img src="img/homegrown/homegrown_midfi@2x.png" alt="wireframes">
-      </picture>
-    </section>
-
-    <!-- Testing -->
- <section>
-    <h2>User Testing</h2>
-  <picture>
-    <source srcset="img/homegrown/homegrown_testing1@1x.png" media="(max-width:767px)">
-    <img src="img/homegrown/homegrown_testing1@2x.png" alt="testing1">
-  </picture>
-  <h3>Common Pain Point #1</h3>
-  <p>Participants didn’t know what to type into search bar</p>
-  <h3>Solution</h3>
-  <ul>
-    <li>Include a drop down menu for location (Mobile).</li>
-    <li>Larger devices can also have more instruction.</li>
-    <li>Include function to search business name in search bar.</li>
-  </ul>
-</section>
-
-<div>
-  <picture>
-    <source srcset="img/homegrown/homegrown_testing2@1x.png" media="(max-width:767px)">
-    <img src="img/homegrown/homegrown_testing2@2x.png" alt="testing2">
-  </picture>
-  <h3>Common Pain Point #2</h3>
-  <p>Confusion about microcopy: “Gardeners”, “Vendors”, etc</p>
-  <h3>Solution</h3>
-  <ul>
-    <li>Discussed different words with participants to determine the clearest terminology</li>
-  </ul>
-</div>
-
-<h2>Mobile Screens</h2>
-<div>
-  <picture>
-    <source srcset="img/homegrown/homegrown_prototype@1x.png" media="(max-width:767px)">
-    <img src="img/homegrown/homegrown_prototype@2x.png" alt="mobile prototype">
-  </picture>
-</div>
-<h2>Responsive Designs</h2>
-<div>
-  <picture>
-    <source srcset="img/homegrown/homegrown_responsive@1x.png" media="(max-width:767px)">
-    <img src="img/homegrown/homegrown_responsive@2x.png" alt="responsive">
-  </picture>
-</div>
-
-<div>
-<h2>Reflection</h2>
-<p>The brief was to develop a location-based web app. I chose to tackle the problem of disconnect between consumer and their food source. Focusing on locally-grown food was an appropriate take on the location-based aspect of the brief.</p>
-<h3>What I learned</h3>
-<p>User research, and in particular, user interviews were the most important factors in determining the features of the MVP. I used the findings of this research to develop User Personas that I could always refer back to in order to empathize with the user when making design decisions.</p>
-<h3>Biggest Challenge</h3>
-<p>Condensing all my ideas into a simplified MVP was challenging. I considered my research and followed the principles of Lean UX to determine which features were absolutely necessary.
-I had to reconsider the User Flow when developing the MVP. I was working with a complex problem that needed solving and had many different ideas that needed to be refined. </p>
-<h3>Insights I gained</h3>
-<p>The learnings from my User Interviews had the biggest impact on the User Experience. Usability Testing also revealed some significant blindspots in the early stages of wire-framing.</p>
-<h3>Going Forward</h3>
-<p>The research was so useful that I would like to have done even more. If time were not as much of a constraint, I would do more rounds of usability testing.</p>
-</div>
-    <a href="#header">Back to Top</a>
   </main>
 
   <!-- Footer -->
   <footer id="contact">
-    <div>
+    <section class="container">
       <h2>Get in Touch</h2>
       <p>If you would like to get in touch with me about a design opportunity,
         please call me at <a href="tel:5142488023">514-248-8023</a> or reach out via email!</p>
@@ -195,8 +200,8 @@ I had to reconsider the User Flow when developing the MVP. I was working with a 
       </div>
       <div>
         <!-- Social Media -->
-        <a href="https://www.linkedin.com/in/rose-mossman" target="_blank">
-          <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <a href="https://www.linkedin.com/in/rose-mossman"  target="_blank">
+          <svg class="icon" enable-background="new 0 0 32 32" height="32px" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g>
               <path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5" />
               <g>
@@ -216,7 +221,7 @@ I had to reconsider the User Flow when developing the MVP. I was working with a 
       <div>
         <p>Copyright Rose Mossman 2022</p>
       </div>
-    </div>
+    </section>
   </footer>
 </body>
 
