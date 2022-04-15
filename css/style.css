@@ -162,6 +162,8 @@ nav > ul > li > a:active {
   font-size: 0.75em;
 }
 
+
+
 /* Medium Devices (640px and larger) */
 
 @media only screen and (min-width: 640px) {
@@ -243,3 +245,4 @@ margin-top: 0px;
 #contact {
   text-align: center;
 }
+
