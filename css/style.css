@@ -238,3 +238,8 @@ margin-top: 0px;
 .cloud-back {
   animation: 60s cloud-move-reverse infinite alternate linear;
 }
+}
+
+#contact {
+  text-align: center;
+}
