@@ -11,22 +11,28 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/e545878d21.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- Header Section -->
   <header>
     <div class="container"> <a href="index.html">
+      <div class="navtoggle" id="myNavtoggle">
         <img src="img/rosemossman.svg" alt="logo" class="logo"> </a>
-      <nav>
-        <ul>
+        <nav>
+         <ul>
           <li><a href="index.html">Projects</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+         </ul>
+        </nav>
+      </div>
     </div>
+    
   </header>
+
 
 
   <main id="main">
@@ -40,12 +46,12 @@
         <p>Homegrown is a location-based web app that bridges the gap between people and their food source. This is possible through rebuilding the connections that have been lost in our neighbourhoods, and fostering communities where neighbours can
           share knowledge, gardening space, and even food.</p>
         <ul>
-          <li>Timeline: 6 week project</li>
-          <li> Role: UX, UI Designer</li>
-          <li>Tools: Sketch, Invision, Miro, Photoshop</li>
+          <li><span id="bold">Timeline:</span> 6 week project</li>
+          <li> <span id="bold">Role:</span> UX, UI Designer</li>
+          <li><span id="bold">Tools:</span> Sketch, Invision, Miro, Photoshop</li>
         </ul>
       </div>
-
+      
       <div>
         <picture>
           <source srcset="img/homegrown/homegrown_questions1@1x.jpg" media="(max-width:767px)">
@@ -66,9 +72,9 @@
       <h2>Interviews</h2>
       <p>A series of interviews were conducted with people interested in increasing the amount of locally grown foods they buy and consume. Here are some of the most common findings:</p>
       <ol>
-        <li>Geographic access is an even bigger barrier than budget. Many people live in food deserts and don’t even know where to look.</li>
-        <li>There are almost no online tools focused on improving access to locally grown food. Most users search for markets and local farms through Google search or Facebook/Instagram.</li>
-        <li>People feel disconnected from their neighbours and community as a whole. The pandemic has affected this isolation even further.</li>
+        <li><span id="bold">Geographic access is an even bigger barrier than budget.</span> Many people live in food deserts and don’t even know where to look.</li>
+        <li><span id="bold">There are almost no online tools focused on improving access to locally grown food. </span>Most users search for markets and local farms through Google search or Facebook/Instagram.</li>
+        <li><span id="bold">People feel disconnected from their neighbours and community as a whole. </span>The pandemic has affected this isolation even further.</li>
       </ol>
 
       <h2>User Personas</h2>
@@ -100,11 +106,14 @@
           <img src="img/homegrown/homegrown_mvp@2x.png" alt="user flow">
         </picture>
 
-        <p>The heart of Homegrown is the search function that generates map-based results of nearby farms, markets, restaurants etc. where users can find locally grown foods.
-          <br>For users that lack nearby purchasing options, Homegrown will also provide alternative options like Community Gardens and Garden Swap. The Garden Swap option is an exciting tool that connects neighbours so they can share tips about
+        <p>The heart of Homegrown is the search function that generates map-based results of nearby farms, markets, restaurants etc. where users can find locally grown foods. <span id="italic">However, without the tools that address the lack of access that certain demographics experience, the app will not succeed in its goal at improving access for everyone.</span>
+          <br>
+          <br>For users that lack nearby purchasing options, Homegrown will also provide alternative options like <span id="bold">Community Gardens and Garden Swap.</span> The Garden Swap option is an exciting tool that connects neighbours so they can share tips about
           gardening, and swap tools, seeds and extra produce.
-          <br>The Food Donation category encourages listings from anyone that has extra produce from their gardens or fruit trees that may otherwise go to waste. Users in need can browse this option to see if anyone in their neighbourhood is offering
+          <br>
+          <br>The<span id="bold"> Food Donation </span> category encourages listings from anyone that has extra produce from their gardens or fruit trees that may otherwise go to waste. Users in need can browse this option to see if anyone in their neighbourhood is offering
           food on the app.
+          <br>
           <br>It was crucial to prioritize the needs of lower-income users when designing the MVP, in order to solve hurdles that would ultimately create a more effective tool for everyone.
         </p>
       </section>
@@ -202,7 +211,7 @@
     <div>
       <!-- Social Media -->
       <a href="https://www.linkedin.com/in/rose-mossman"  target="_blank">
-        <svg class="icon" enable-background="new 0 0 32 32" height="32px" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="linkedin" enable-background="new 0 0 32 32" height="32px" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g>
             <path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5" />
             <g>

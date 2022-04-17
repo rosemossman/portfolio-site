@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Fraunces:ital,wght@0,500;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/e545878d21.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,33 +19,49 @@
   <!-- Header Section -->
   <header>
     <div class="container"> <a href="index.html">
+      <div class="navtoggle" id="myNavtoggle">
         <img src="img/rosemossman.svg" alt="logo" class="logo"> </a>
-      <nav>
-        <ul>
+        <nav>
+         <ul>
           <li><a href="index.html">Projects</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+         </ul>
+        </nav>
+      </div>
     </div>
+    
   </header>
 
   <main>
-   
+    
     <section id="hero">
       <div class="container">
+        <svg id="glow" class="fade-in-image" width="388px" height="388px" viewBox="0 0 388 388" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>Oval Copy</title>
+          <defs>
+              <filter x="-41.0%" y="-41.0%" width="182.1%" height="182.1%" filterUnits="objectBoundingBox" id="filter-1">
+                  <feGaussianBlur stdDeviation="32" in="SourceGraphic"></feGaussianBlur>
+              </filter>
+          </defs>
+          <g id="Portfolio-Prep" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <circle id="Oval-Copy" fill="#D4FF15" filter="url(#filter-1)" cx="194" cy="194" r="117"></circle>
+          </g>
+      </svg>
         <h1>
           <span class="intro">Hi, I'm Rose.</span>
-          <br> I am a Graphic Designer turned UX/UI Designer with a passion for human-centered design—no matter
+          <br> I am a Graphic Designer turned UX/UI Designer with a passion for human-centered design<br>—no matter
           which final form it may take.
         </h1>
+        
       </div>
     </section>
 
     <!-- Work Section -->
     <section id="work">
       <div class="container">
-        <h2>Projects</h2>
+        <h2 id="projects">PROJECTS</h2>
 
         <!-- Project 1 Section -->
         <div class="row">
@@ -697,10 +714,9 @@
             </div>
           </div>
         </section>
+        <script src="js/script.js"> </script>  
 
   </main>
-
-<script src="js/script.js"> </script>  
 
 <!-- Footer -->
 <footer id="contact">
@@ -714,7 +730,7 @@
     <div>
       <!-- Social Media -->
       <a href="https://www.linkedin.com/in/rose-mossman"  target="_blank">
-        <svg class="icon" enable-background="new 0 0 32 32" height="32px" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="linkedin" enable-background="new 0 0 32 32" height="32px" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g>
             <path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5" />
             <g>
