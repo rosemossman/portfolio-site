@@ -79,7 +79,7 @@ a {
   z-index: -1;
   display: block;
   width: 100%;
-  max-width: 1200px;
+  
   margin-left: auto;
   margin-right: auto;
   }
@@ -242,7 +242,7 @@ margin-top: 0px;
 } 
 
 .logo {
-  max-width: 241px;
+  max-width: 240px;
 }
 
 nav > ul > li {
@@ -285,7 +285,7 @@ nav > ul > li > a:focus{
 
 #hero {
   text-align: center;
-  padding: 100px 0;
+  padding: 60px 0;
 
 
 /* Large Devices (1024px and larger) */
