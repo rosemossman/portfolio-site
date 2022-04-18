@@ -20,8 +20,9 @@ body {
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #181919;
+  font-style: italic;
   }
 
 h2 {
@@ -36,6 +37,13 @@ h3 {
   color: #4B4D4F;
   font-size: 1em;
   }
+
+h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  color: #181919;
+}
 
 .intro {
   font-style: italic;
@@ -79,7 +87,6 @@ a {
   z-index: -1;
   display: block;
   width: 100%;
-  
   margin-left: auto;
   margin-right: auto;
   }
@@ -94,9 +101,11 @@ a {
   }
 
 #projects {
-  font-weight: 400;
-  font-size: 1.25em;
-  text-decoration: underline;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #181919;
+  font-style: italic;
 
   }
 
@@ -107,8 +116,9 @@ a {
 
 #work .row {
   margin: 25px 0;
-  border-bottom: 1px solid #181919;
+  border-bottom: 1px solid #4B4D4F;
   padding-bottom: 25px;
+  
   }
 
 #hero {
@@ -117,8 +127,12 @@ a {
   padding-top: 76px;
   display: inline-block;
   width: 100%; 
-  color: #181919
+  
   }
+#project1 {
+  border-top: 1px solid #4B4D4F;
+  padding-top: 25px;
+}
 
 main {
 padding-top: 103px;
@@ -333,6 +347,10 @@ nav > ul > li > a:focus{
 
 #contact {
   text-align: center;
+}
+
+#animation {
+  display: none;
 }
 
 
